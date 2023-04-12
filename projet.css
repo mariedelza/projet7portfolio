@@ -1,0 +1,97 @@
+body{
+    background-color: #222;
+}
+.education .heading{
+    text-align: center;
+    font-size: 3rem;
+    background-color: #fff;
+    padding: 30px;
+    
+}
+.education{
+          font-family: 'poppins', sans-serif;      
+}
+.education .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
+.education .box-container .box{
+    width: 27rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #fff;
+    position: relative;
+}
+.education .box-container span{
+    font-size: 1.3rem;
+    background:crimson;
+    border-radius: 5rem;
+    color: #fff;
+    padding: 3rem 4rem;
+}
+.education .box-container h3{
+    font-size: 2rem;
+    color: #fff;
+    padding-top: 1.5rem;
+}
+.education .box-container p {
+    font-size: 1.4rem;
+    color: #eee;
+    padding: 1rem 0;
+}
+.education .box-container i {
+    position: absolute;
+    top: -1.5rem ; left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: yellowgreen;
+    background: var(--yellow);
+}
+footer {
+    font-family: 'poppins', sans-serif;
+    background:cadetblue;
+    padding: 30px 20px;
+    color: #fff;
+
+
+
+}
+
+footer span a {
+    color: crimson;
+    text-decoration: none;
+}
+
+footer span a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,711 @@
+.navbar{
+position:fixed;
+z-index: 999;
+width: 100%;
+padding: 60px 0;
+transition: all 0,3s ease;
+}
+.navbar.sticky{
+    padding: 10px 0;
+    background:crimson ;
+}
+
+.logo {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.logo span{
+    color: crimson;
+    transition: all 0,3s ease;
+}
+.navbar.sticky .logo span {
+    color: #fff;
+
+}
+.max{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.menu li a{
+    color:#fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0,3s ease;
+    text-decoration: none;
+
+}
+.menu li a:hover{
+    color:chartreuse;
+}
+.navbar.sticky .menu li a:hover {
+    color: #fff;
+
+}
+.Accueil{
+    display: flex;
+    background: url("image/mari.jpg") no-repeat,center;
+    height: 200vh;
+    color:#fff;
+    
+
+}
+.content{
+    color: aqua;
+    background: center;
+    
+
+}
+.hire{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 35px;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 2px solid crimson;
+    transition: all 0,3s ease;
+
+}
+.section{
+    padding: 100px 0;
+}
+.Apropos{
+    font-family: 'poppins', sans-serif;
+
+}
+.Apropos .title{
+    position: relative;
+    font-family: 'ubuntu',sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 70px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.Apropos .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    width: 400px;
+    height: 3px;
+    background: black;
+    transform: translateX(-1%);
+
+}
+
+
+.Apropos .title::after {
+    content: "Qui suis-je";
+    position: absolute;
+    font-size: 20px;
+    color: crimson;
+    bottom: -12px;
+    width: 180px;
+    left: 43%;
+    padding: 0px;
+    background:#fff;
+    transform: translateX(-1%);
+
+}
+.Apropos-content .left img{
+    height: 800px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 6px;
+
+
+}
+.Apropos-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.Apropos-content .left{
+    width: 45%;
+
+    
+}
+.Apropos-content .right {
+    width: 55%;
+
+
+}
+.Apropos-content .right .text{
+    
+font-size: 35px;
+font-weight: 700;
+margin-bottom: 15px;
+
+}
+.Apropos-content .right .text span{
+
+    color: crimson;
+
+}
+.Apropos-content .right p {
+    text-align: justify;
+
+}
+
+.marie{
+
+    display: inline-block;
+        background: crimson;
+        color: #fff;
+        font-size: 20px;
+        padding: 10px 30px;
+        text-decoration: none;
+        margin-top: 30px;
+        border-radius: 10px;
+        border: 2px solid crimson;
+        transition: all 0, 3s ease;
+
+}
+.marie:hover {
+    color: black;
+    background: none;
+
+
+}
+.hire:hover{
+    color:aqua;
+    background: none;
+}
+.max-content{
+    margin: auto 0 auto 40px;
+    
+}
+.text-1{
+    color: #fff;
+    font-size: 37px;
+}
+.text-2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.text-3 span {
+    color: crimson;
+    font-weight: 900;
+    font-size: 20px;
+}
+.text-3  {
+    color: #fff;
+    font-weight: 200;
+    font-size: 50px;
+}
+section .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    width: 250px;
+    height: 3px;
+    background: black;
+    transform: translateX(-1%);
+
+}
+
+
+section .title::after {
+
+    position: absolute;
+    font-size: 20px;
+    color: crimson;
+    bottom: -12px;
+    width: 180px;
+    left: 43%;
+    padding: 0px;
+    transform: translateX(-1%);
+
+}
+section .title {
+    position: relative;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 70px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.services .title::before{
+    background: #fff;
+    
+}
+.services .title::after{
+    content: "Ce que je fournis!!!";
+    background: black;
+
+}
+
+.services .serv-content{
+    display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        
+
+}
+.services, .teams{
+    color: #fff;
+    background: black;
+}
+.services .serv-content .card{
+width: (35% -20px);
+background:#222;
+text-align: center;
+border-radius: 6px;
+padding: 20px 25px;
+cursor:pointer;
+transition: all 0,3s ease;
+}
+.services .serv-content .card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0,3s ease;
+    
+}
+.services .serv-content .card:hover{
+    background: crimson;
+
+}
+.services .serv-content .card:hover i{
+    color: #fff;
+
+
+}
+
+.services .serv-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.services .serv-content .card .box{
+    transition: all 0,3s ease;
+}
+.services .serv-content .card:hover .box{
+    transform: scale(1.05);
+    
+}
+/* css pour mes projets */
+.projets-content{
+    font-family: 'poppins', sans-serif;
+
+}
+.projets .title::after{
+    content: "Mes Realisations";
+        position: absolute;
+        font-size: 20px;
+        color: crimson;
+        bottom: -12px;
+        width: 180px;
+        left: 43%;
+        padding: 0px;
+        background: #fff;
+        transform: translateX(-1%);
+}
+.projets .projets-content .column{
+    width: calc(50% - 30px);
+}
+
+.projets .projets-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.projets .projets-content .left .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    
+}
+.projets .projets-content .left p{
+    text-align: justify;
+
+}
+.projets .projets-content .left a{
+    
+display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 2px solid crimson;
+    transition: all 0, 3s ease;
+}
+.projets .projets-content .left a:hover {
+    color:#222;
+    background: none;
+
+}
+.projets .projets-content .right .bars{
+    margin-bottom: 18px;
+
+}
+.projets .projets-content .right .info {
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.projets .projets-content .right .span {
+    font-weight: 700;
+    font-size: 20px;
+
+}
+.projets .projets-content .right .line {
+    height: 5px;
+    width: 100%;
+    background: lightgray;
+    position: relative;
+
+}
+.projets .projets-content .right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    left: 0;
+    top: 0;
+    background: crimson;
+
+
+}
+.projets .projets-content .right .html::before {
+    width: 90%;
+}
+.projets .projets-content .right .css::before {
+    width: 60%;
+}
+.projets .projets-content .right .python::before {
+    width: 70%;
+}
+.projets .projets-content .right .javascript::before {
+    width: 20%;
+}
+.projets .projets-content .right .php::before {
+    width: 10%;
+}
+.projets .projets-content .right .mysql::before {
+    width: 80%;
+}
+
+/* style teams */
+.teams {
+    font-family: 'poppins', sans-serif;
+
+}
+.teams .title::after{
+    content: "avec qui je travail";
+    position: absolute;
+        font-size: 20px;
+        color: crimson;
+        bottom: -12px;
+        width: 180px;
+        left: 46%;
+        padding: 0px;
+        background: #fff;
+        transform: translateX(-1%);
+}
+.teams .title::before {
+    background: #fff;
+
+}
+.teams .title::after {
+content: "avec qui je travail";
+    background: black;
+    
+
+}
+.teams .carousel .card{
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    transition: all 0,3s ease;
+
+    
+
+}
+.teams .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+
+
+
+}
+.teams .carousel .card:hover{
+    background: crimson;
+}
+.teams .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+.teams .carousel .card:hover img{
+    border-color:black;
+  
+}
+.teams .carousel .card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid crimson;
+    transition: all 0, 3s ease;
+
+}
+.teams .carousel .card .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid crimson!important;
+    transition: all 0,3s ease;
+
+
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active, .owl-dot:hover{
+    background: crimson!important;
+}
+/* contact style */
+.contact .title::after{
+    content: 'mes coordonnees';
+    position: absolute;
+        font-size: 20px;
+        color: crimson;
+        bottom: -12px;
+        width: 180px;
+        left: 42%;
+        padding: 0px;
+        background: #fff;
+        transform: translateX(-1%);
+}
+.contact{
+    font-family: 'poppins', sans-serif;
+
+}
+.contact .contact-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.contact .contact-content .column{
+    width: calc(50% - 30px);
+
+}
+.contact .contact-content .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+
+}
+.contact .contact-content .left p{
+    text-align: justify;
+
+
+
+}
+.contact .contact-content .left .icons {
+    margin: 10px 0;
+
+
+}
+.contact .contact-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contact .contact-content .row .info{
+    margin-left: 30px;
+
+}
+.contact .contact-content .row i {
+    font-size: 25px;
+    color: crimson;
+}
+.contact .contact-content .info .head{
+    font-weight: 500;
+
+}
+.contact .contact-content .info .sub-title {
+    color: #333;
+}
+.contact .right form .fields{
+    display: flex;
+
+}
+.contact .right form .fields, 
+.contact .right form .field {
+    height: 50px;
+    width: 90%;
+    margin-bottom: 15px;
+    
+}
+.contact .right form .field input, .contact .right form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'poppins',sans-serif;
+
+}
+.contact .right form .name {
+    margin-right: 10px;
+
+}
+.contact .right form .Email {
+    margin-left: 10px;
+
+}
+.contact .right form .textarea textarea{
+    padding-top: 10px;
+    resize: none;
+    width: 90%;
+    border-color: #111;
+}
+.contact .right form .button{
+    height: 47px;
+    width: 100%;
+
+}
+.contact .right form .button button{
+    width: 50%;
+    height: 80%;
+    border: 2px solid crimson;
+    background: crimson;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0,3s ease;
+}
+.contact .right form .button button:hover{
+    color: black;
+    background: none;
+
+}
+footer{
+    font-family: 'poppins', sans-serif;
+    background: #111;
+    padding: 30px 20px;
+    color: #fff;
+    
+    
+
+}
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+.scroll-up-btn{
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: crimson;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0,3s ease;
+
+
+}
+.scroll-up-btn.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
